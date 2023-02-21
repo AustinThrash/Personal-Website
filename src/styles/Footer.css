@@ -1,0 +1,30 @@
+.footer {
+    width: 100%;
+    height: 200px;
+    background: #558564;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+    margin-top: 100px;
+}
+  
+.linkedAccounts svg {
+    color: white;
+    margin: 20px;
+    font-size: 70px;
+    cursor: pointer;
+}
+  
+.footer p {
+    color: white;
+    text-decoration: none;
+    font-family: OCR A Std, monospace;
+}
+  
+@media only screen and (max-width: 600px) {
+    .footer svg {
+      font-size: 50px;
+    }
+}

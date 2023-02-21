@@ -1,0 +1,136 @@
+hr {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    width: 75vw;
+
+}
+
+.education {
+    padding-top: 40px;
+}
+
+.education1 {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.education2 {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    
+}
+
+.diploma {
+    width: 40%;
+    height: 40%;
+    max-width: 400px;
+    border: 0.5vw solid white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    margin-right: 30px;
+    
+
+}
+.utsa {
+    width: 40%;
+    height: 40%;
+    max-width: 400px;
+    border: 0.5vw solid white;
+    border-radius: 5%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    margin-right: 30px;
+
+}
+
+@media only screen and (max-width: 450px) {
+    .education1 {
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+    }
+    .education2 {
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+    }
+    .diploma {
+        margin-right: 0;
+    }
+    .utsa {
+        margin-right: 0;
+    }
+}
+
+
+#fadein {
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    -moz-animation: fadeIn 2s;
+    -o-animation: fadeIn 2s;
+    -ms-animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+  
+@-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+  
+@-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+  
+@-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#slideIn {
+    animation: slideIn 4s;
+    -webkit-animation: slideIn 4s;
+    -moz-animation: slideIn 4s;
+    -o-animation: slideIn 4s;
+    -ms-animation: slideIn 4s;
+}
+
+@keyframes slideIn {
+    0% { right: 20px; }
+    100% { right: 0px; }
+}
+
+@-moz-keyframes slideIn {
+    0% { right: 20px; }
+    100% { right: 0px; }
+}
+  
+@-webkit-keyframes slideIn {
+    0% { right: 20px; }
+    100% { right: 0px; }
+}
+  
+@-o-keyframes slideIn {
+    0% { right: 20px; }
+    100% { right: 0px; }
+}
+  
+@-ms-keyframes slideIn {
+    0% { right: 20px; }
+    100% { right: 0px; }
+}

@@ -1,0 +1,31 @@
+.App {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: OCR A Std, monospace;
+    background-color: #f0f0f0;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+}
+
+.vertical-timeline-element-date {
+    text-align: left;
+}
+
+.aboutImg {
+    border: 0.5vw solid white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+    width: 40%;
+}
+
+.aphs {
+    border: 0.5vw solid white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+    width: 40%;
+}

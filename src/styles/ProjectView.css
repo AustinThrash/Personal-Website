@@ -1,0 +1,67 @@
+.project {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.project h1 {
+  color: black;
+  font-size: 35px;
+}
+.project h5 {
+    font-size: 15px;
+}
+
+.overview{
+    color: black;
+    max-width: 700px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.skills{
+    color: black;
+    max-width: 700px;
+    padding-top: 0;
+    padding-bottom: 10px;
+}
+.link {
+    color: black;
+    max-width: 240px;
+    overflow-wrap: break-word;
+    margin: auto;
+}
+.image {
+  width: 50vw;
+  max-width: 600px;
+  max-height: 350px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.back h4 {
+    padding-top: 0;
+    margin-top: 0;
+}
+.back svg {
+    font-size: 60px;
+    color: #558564;
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+}
+.back:hover {
+    cursor: pointer;
+}
+
+.project p {
+  font-size: 40px;
+  color: #558564;
+}
+
+.details svg {
+  font-size: 60px;
+  color: #558564;
+  padding-bottom: 20px;
+}
